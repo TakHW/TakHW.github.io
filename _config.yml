@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               탁이의 블로그
+tagline:               탁이의 블로그 test
 
 # Theme
 # ----------------------------------------------------------------------------------------0------------------------------------
@@ -50,6 +50,7 @@ logo:                  /assets/img/tak_W.png
 
 # favicon 파비콘은 여기.
 favicon:               /assets/img/tak_B.png
+apple_touch_icon:      /assets/img/tak_B.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -57,14 +58,18 @@ author:
   name:                HyeonWoo Tak
   email:               <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
+  social:
+    github:            TakHW
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Study
+    url:               /study/
+  - title:             jobdong
+    url:               /jobdong/
+  - title:             Diary
+    url:               /diary/
   - title:             About
     url:               /about/
 
