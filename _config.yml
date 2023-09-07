@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+url:                   https://TakHW.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               탁이의 블로그 test3
+tagline:               탁이의 블로그
 
 # Theme
 # ----------------------------------------------------------------------------------------0------------------------------------
@@ -45,8 +45,10 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
+# logo 로고
 logo:                  /assets/img/tak_W.png
 
+# favicon 파비콘은 여기.
 favicon:               /assets/img/tak_B.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
@@ -93,13 +95,14 @@ paginate_path:         /:num/
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+# 사이드바 이미지
+accent_image:          /assets/img/sky.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(3,117,250)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -368,7 +371,7 @@ social:
   name:                HyeonWoo Tak
   links:
 #    - https://twitter.com/<username>
-#    - https://github.com/TakHW
+  - https://github.com/TakHW
 
 
 # Plugin Configs
