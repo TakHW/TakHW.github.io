@@ -29,7 +29,15 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               탁이의 블로그 test2
+tagline:               탁이의 블로그 test3
+
+# Theme
+# ----------------------------------------------------------------------------------------0------------------------------------
+## local 127.0.0.1:4000  ->   theme
+## add commit push       ->   # theme
+
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 # A list of keywords for your blog
 keywords:              []
@@ -38,6 +46,8 @@ keywords:              []
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/tak_W.png
+
+favicon:               /assets/img/tak_B.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -77,13 +87,6 @@ paginate:              10
 paginate_path:         /:num/
 
 
-# Theme
-# ---------------------------------------------------------------------------------------
-## local 127.0.0.1:4000  ->   theme
-## add commit push       ->   # theme
-
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
