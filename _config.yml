@@ -36,8 +36,8 @@ tagline:               탁이의 블로그 test
 ## local 127.0.0.1:4000  ->   theme
 ## add commit push       ->   # theme
 
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 # A list of keywords for your blog
 keywords:              []
