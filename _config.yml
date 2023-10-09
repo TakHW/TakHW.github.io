@@ -29,14 +29,14 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               탁이의 블로그 test1
+tagline:               탁이의 블로그 test2
 
 # Theme
 # ------------------------------------------------------------------------------------------------0------------------------------------
 ## local 127.0.0.1:4000  ->   theme
 ## add commit push       ->   # theme
 
-theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 # A list of keywords for your blog
