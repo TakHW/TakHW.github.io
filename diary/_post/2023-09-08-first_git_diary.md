@@ -2,7 +2,7 @@
 layout:             post
 title:              github blog open
 description:        github open
-categories:         [github]
+categories:         [open]
 tags:               [open]
 ---
 
