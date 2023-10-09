@@ -32,11 +32,11 @@ description:           >
 tagline:               탁이의 블로그 test1
 
 # Theme
-# ----------------------------------------------------------------------------------------0------------------------------------
+# ------------------------------------------------------------------------------------------------0------------------------------------
 ## local 127.0.0.1:4000  ->   theme
 ## add commit push       ->   # theme
 
-# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 # A list of keywords for your blog
@@ -55,8 +55,8 @@ apple_touch_icon:      /assets/img/tak_B.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                HyeonWoo Tak
-  email:               <mail@domain.tld>
+  name:                <HyeonWoo> <Tak>
+  email:               <thw0781@naver.com>
   # # Used by `jekyll-seo-tag`:
   social:
     github:            TakHW
@@ -91,7 +91,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /:num/
+paginate_path:         /page-:num/
 
 
 
