@@ -9,7 +9,7 @@ url:                   https://TakHW.github.io
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
+# baseurl:               '/TakHW.github.io'
 
 
 # General settings
@@ -29,10 +29,10 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               탁이의 블로그 test
+tagline:               탁이의 블로그 test2
 
 # Theme
-# ----------------------------------------------------------------------------------------0------------------------------------
+# ------------------------------------------------------------------------------------------------0------------------------------------
 ## local 127.0.0.1:4000  ->   theme
 ## add commit push       ->   # theme
 
@@ -55,8 +55,8 @@ apple_touch_icon:      /assets/img/tak_B.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                HyeonWoo Tak
-  email:               <mail@domain.tld>
+  name:                <HyeonWoo> <Tak>
+  email:               <thw0781@naver.com>
   # # Used by `jekyll-seo-tag`:
   social:
     github:            TakHW
@@ -66,8 +66,8 @@ author:
 menu:
   - title:             Study
     url:               /study/
-  - title:             jobdong
-    url:               /jobdong/
+  - title:             Test Doc
+    url:               /test_doc/
   - title:             Diary
     url:               /diary/
   - title:             About
@@ -91,7 +91,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /:num/
+paginate_path:         /page-:num/
 
 
 
